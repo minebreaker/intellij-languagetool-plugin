@@ -1,0 +1,19 @@
+<idea-plugin>
+    <id>rip.deadcode.languagetool-plugin</id>
+    <name>Languagetool Integration</name>
+    <version>0.1.0</version>
+    <vendor email="" url="">minebreaker</vendor>
+
+    <description><![CDATA[
+    Languagetool integration to detect grammar errors.
+    ]]></description>
+
+    <change-notes><![CDATA[
+    No change notes. Still in the alpha status.
+    ]]></change-notes>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <annotator language="" implementationClass="rip.deadcode.intellij.languagetool.LtAnnotator" />
+    </extensions>
+
+</idea-plugin>
